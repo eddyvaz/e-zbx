@@ -49,7 +49,7 @@ def handle(msg):
 
 ################################################################fim comandos
 ## bot API key
-bot = telepot.Bot('295149134:AAFLvzQpCVeKShzXFyM0ITmyOx5ZVmaoQ5M')
+bot = telepot.Bot('TOKEN_TELEGRAM')
 bot.message_loop(handle)
 
 ## Aguardar novas msgs
